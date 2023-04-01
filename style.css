@@ -1,0 +1,133 @@
+@charset "UTF-8";
+:root{
+    --corBanner:#bce2f8;
+}
+#divMain{
+    margin: -8px;
+    background-color: var(--corBanner);
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+}
+#divisao{
+    background-color: var(--corBanner);
+    width: 86vw;
+    height: 100vh;
+    align-items: flex-start;
+    display:grid;
+    justify-content: center;
+}
+#divMenu{    
+    background-color:var(--corBanner);
+    height: 18vh;
+    width: 86vw;
+    display: flex;
+    background-color:var(--corBanner);
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+
+}
+#divFrase{
+    background-color: var(--corBanner);
+    height: 82vh;
+    width: 86vw;
+    display: flex;
+    
+}
+#divNada{
+    background-color: var(--corBanner);
+    width: 47vw;
+    display: flex;
+    
+}
+#divTagA{
+    background-color: var(--corBanner);
+    width: 35vw;
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+#divText{
+    align-items: center;
+    background-color: var(--corBanner);
+    width: 39vw;
+    display: grid;
+
+}
+#divH1{
+    display: grid;
+    background-color: var(--corBanner);
+    width: 35vw;
+}
+#frame{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 35px;
+}
+#divQuemSomos{
+    height: 90vh;
+    background-color: var(--corBanner);
+    margin: 8px -8px;
+    align-items: center;
+    display: grid;
+    text-align: center;
+
+}
+#icones{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.a{
+    margin-right: 12px;
+    color: black;
+    font-size: 12pt;
+    text-decoration: none;
+    padding:5px 10px;
+    padding: 3px 8px;
+
+}
+.a:hover{
+    border-radius: 8px;
+    border: 2px solid white;
+    border-color: white;
+    color: white;
+}
+.b{
+    font-size: 18pt;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 3px;
+    border-radius: 8px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+
+}
+.b:hover{
+    color: white;
+    border-color: white;
+}
+#pSubTitulo{
+    font-size: x-large;
+}
+p{
+    margin: 0;
+    text-align:justify;
+}
+.pHome{
+    text-align: center;
+    color:black;
+    font-size: x-large;
+}
+#h1Banner{
+    margin-top: auto;
+}
+footer{
+    background-color: blue;
+    width: 100%;
+}
