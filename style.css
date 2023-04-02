@@ -35,6 +35,15 @@ video{
     align-items: center;
 
 }
+.divMenuGeral{
+    background-color:var(--corBanner);
+    height: 10vh;
+    display: flex;
+    background-color:var(--corBanner);
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+}
 #divFrase{
     background-color: var(--corBanner);
     height: 82vh;
