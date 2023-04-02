@@ -92,6 +92,22 @@ video{
     text-align: center;
 
 }
+#divNossosProjetos{
+    text-align: justify;
+}
+section{
+    text-align: center;
+}
+section h1{
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+section p{
+    font-size: 14pt;
+}
+input{
+    width: 30vw;
+}
 .divFooter{
     padding: 20px;
     align-items: center;
