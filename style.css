@@ -1,6 +1,10 @@
 @charset "UTF-8";
 :root{
-    --corBanner:#bce2f8;
+    --corBanner:#5fbbf0;
+}
+video{
+    width: 620px;
+    height: 360px;
 }
 #divMain{
     margin: -8px;
@@ -68,13 +72,22 @@
     margin: 35px;
 }
 #divQuemSomos{
-    height: 90vh;
+    height: 80vh;
     background-color: var(--corBanner);
     margin: 8px -8px;
     align-items: center;
     display: grid;
     text-align: center;
 
+}
+.divFooter{
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    font-size: 8pt;
+}
+.divFooter img{
+    width: 32px;
 }
 #icones{
     display: flex;
@@ -83,7 +96,7 @@
 }
 .a{
     margin-right: 12px;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 12pt;
     text-decoration: none;
     padding:5px 10px;
@@ -92,15 +105,15 @@
 }
 .a:hover{
     border-radius: 8px;
-    border: 2px solid white;
-    border-color: white;
-    color: white;
+    border: 2px solid rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 .b{
     font-size: 18pt;
     text-decoration: none;
-    color: rgb(0, 0, 0);
-    border: 2px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
     padding: 3px;
     border-radius: 8px;
     width: 150px;
@@ -109,8 +122,8 @@
 
 }
 .b:hover{
-    color: white;
-    border-color: white;
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
 }
 #pSubTitulo{
     font-size: x-large;
@@ -124,10 +137,27 @@ p{
     color:black;
     font-size: x-large;
 }
-#h1Banner{
-    margin-top: auto;
+h1{
+    margin:0;
+}
+#h1NossosProjetos{
+    margin: 0;
+    text-align: center;
+}
+.hHome{
+    color:white;
+}
+.h2Footer{
+    padding-left: 8px;
+}
+#ulHome{
+    font-size: larger;
 }
 footer{
-    background-color: blue;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin:0 -8px;
+    background-color:var(--corBanner);
     width: 100%;
 }
