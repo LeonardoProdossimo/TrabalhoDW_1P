@@ -1,59 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ComoAjudar</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="Icones/elearning.png" type="image/x-icon">
-    </head>
-    <body>
-        <div class="divMenuGeral">
-            <a class="a" href="index.html">Início</a>
-            <a class="a" href="">Notícias e Eventos</a>
-            <a class="a" href="comoAjudar.html">Como Ajudar</a>
-            <a class="a" href="">Parceiros</a>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como Ajudar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Icones/elearningP.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="divMenuGeral">
+        <a class="a" href="index.html">Início</a>
+        <a class="a" href="">Notícias e Eventos</a>
+        <a class="a" href="comoAjudar.html">Como Ajudar</a>
+        <a class="a" href="">Parceiros</a>
+    </div>
+    <section>
+        <blockquote>
+            <h1>Como Ajudar</h1>
+            <p>Se você está interessado em ajudar a ONG, você pode começar por se informar sobre os projetos da
+                organização e compartilhá-los em suas redes sociais para conscientizar outras pessoas sobre o trabalho
+                que está sendo feito.</p> <br>
+            <p>Outra maneira de ajudar é doando recursos financeiros para apoiar os projetos da ONG.
+            </p> <br>
+
+            <h2><b>As doações podem ser feitas através de tranferência ou depósito bancário.</b></h2>
+            <p>
+                <b>Razão Social:</b> 
+                ONG Tecnologia da Solidariedade <br>
+                <b>CNPJ:</b>00.000.000/0000-00 <br>
+                <b>Banco:</b> Qualquer um pagamentos <br>
+                <b>Conta:</b> 0000-0 <br>
+                <b>Agência:</b> 0000 <br>
+                
+            </p> <br>
+
+            <h2>A ONG também precisa de voluntários, preencha este formulário com seus dados e entraremos em contato.</h2>
+            <h3>Digite seu nome: <br>
+                <input title="Digite seu Nome" name="Nome" type="text">
+            </h3>
+            <h3>Digite seu e-mail: <br>
+                <input title="Digite seu e-mail" type="text">
+            </h3>
+            <h3>
+                <input id="botao" type="button" value="Enviar" onclick="Enviar()">
+            </h3> <br>
+            <p>Independentemente da forma que você escolher para ajudar, saiba que qualquer contribuição é valiosa e
+                pode fazer a diferença na vida das pessoas que mais precisam. Juntos, podemos tornar a tecnologia uma
+                ferramenta para criar oportunidades e promover a inclusão social.</p> <br>
+        </blockquote>
+    </section>
+    <footer>
+        <div class="divFooter">
+            <img src="Icones/o-email.png" alt="E-mail">
+            <h2 class="h2Footer">techsolidariedade.org</h2>
         </div>
-        <section>
-            <blockquote>
-                <h1>Como Ajudar</h1>
-                <p>Se você está interessado em ajudar a ONG, você pode começar por se informar sobre os projetos da organização e compartilhá-los em suas redes sociais para conscientizar outras pessoas sobre o trabalho que está sendo feito.</p> <br>
-                <p>Outra maneira de ajudar é doando recursos financeiros para apoiar os projetos da ONG. As doações podem ser feitas através de tranferência bancaria.</p> <br>
-                <p>
-                    Conta: 0000-0 <br>
-                    Agência: 0000 <br>
-                    ONG Tecnologia da Solidariedade <br> 
-                </p> <br>
-                    
-                <p>Além disso, a ONG também pode precisar de voluntários, se você tem interesse, preencha este formulário com seus dados e entraremos em contato.</p> <br>
-                <h2>Digite seu nome: <br>
-                    <input title="Digite seu Nome" name="Nome" type="text">
-                </h2> <br>
-                <h2>Digite seu e-mail: <br>
-                    <input title="Digite seu e-mail" type="text">
-                </h2> <br>
-                <h2>
-                    <input type="button" value="Enviar" onclick="Enviar()">
-                </h2> <br>
-                <p>Independentemente da forma que você escolher para ajudar, saiba que qualquer contribuição é valiosa e pode fazer a diferença na vida das pessoas que mais precisam. Juntos, podemos tornar a tecnologia uma ferramenta para criar oportunidades e promover a inclusão social.</p> <br>
-            </blockquote>
-        </section>
-        <footer>
-            <h1>Fale Conosco</h1>
-            <div class="divFooter">
-                <img src="Icones/o-email.png" alt="E-mail">
-                <h2 class="h2Footer">techsolidariedade.org</h2>
-            </div>
-            <div class="divFooter">
-                <img src="Icones/facebook.png" alt="Facebook">
-                <h2 class="h2Footer">facebook.com/TecnologiadaSolidariedade</h2>
-            </div>
-            <div class="divFooter">
-                <img src="Icones/instagram.png" alt="Instagran">
-                <h2 class="h2Footer">instagran.com/TecnologiadaSolidariedade</h2>
-            </div>
-        </footer>
-        <script src="script.js"></script>
-    </body>
+        <div class="divFooter">
+            <img src="Icones/facebook.png" alt="Facebook">
+            <h2 class="h2Footer">facebook.com/TecnologiadaSolidariedade</h2>
+        </div>
+        <div class="divFooter">
+            <img src="Icones/instagram.png" alt="Instagran">
+            <h2 class="h2Footer">instagran.com/TecnologiadaSolidariedade</h2>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
 </html>

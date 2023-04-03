@@ -55,7 +55,13 @@ video{
     background-color: var(--corBanner);
     width: 47vw;
     display: flex;
+    align-items: center;
+    justify-content: center;
     
+}
+#divNada img{
+    width: 30vw;
+    height: 25vh;
 }
 #divTagA{
     background-color: var(--corBanner);
@@ -63,7 +69,7 @@ video{
     margin-top: 20px;
     display: flex;
     text-align: center;
-    justify-content: space-around;
+    justify-content: start;
 }
 #divText{
     align-items: center;
@@ -98,15 +104,28 @@ video{
 section{
     text-align: center;
 }
+section h2{
+    text-align: left;
+}
 section h1{
     font-size: xx-large;
     margin-bottom: 20px;
+}
+section h3{
+    text-align: left;
 }
 section p{
     font-size: 14pt;
 }
 input{
+    border-radius: 8px;
+    font-size: larger;
     width: 30vw;
+}
+#botao{
+    background-color: var(--corBanner);
+    color: white;
+    width: 10vw;
 }
 .divFooter{
     padding: 20px;
@@ -138,15 +157,14 @@ input{
     color: rgb(0, 0, 0);
 }
 .b{
+    background-color: #FF914D;
     font-size: 18pt;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    border: 2px solid rgb(255, 255, 255);
     padding: 3px;
     border-radius: 8px;
     width: 150px;
     height: 30px;
-    text-align: center;
 
 }
 .b:hover{
